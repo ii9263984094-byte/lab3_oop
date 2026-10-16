@@ -1,4 +1,3 @@
-# test_regex.py
 import unittest
 from regex_checker import HexValidator
 
