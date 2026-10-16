@@ -1,0 +1,18 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+
+# Кеш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Настройки IDE (PyCharm и VS Code)
+.idea/
+.vscode/
+
+# Временные файлы и лог-файлы
+*.log
+.DS_Store
