@@ -1,15 +1,15 @@
 import random
 import tkinter as tk
 from tkinter import messagebox
-
+import settings
 
 class GuessNumberGame:
   """Класс графического приложения для игры 'Угадай число'."""
 
   def __init__(self, root):
     self.root = root
-    self.root.title("Игра Угадай число")
-    self.root.geometry("400x350")
+    self.root.title(settings.WINDOW_TITLE)
+    self.root.geometry(settings.WINDOW_GEOMETRY)
     self.root.minsize(300, 300)
 
     self.secret_number = random.randint(1, 100)
